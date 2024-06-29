@@ -31,7 +31,19 @@ Alien Bank faces challenges with managing vast customer transaction data stored 
 - **GitHub:** Version control and collaboration.
 
 ## Data Source
-- [Link to Data Source](Data Source)
+- [https://drive.google.com/drive/folders/1qUMk3bxpyNfmEnVH-CoHaBTNSrVQlUyo?usp=sharing](Data Source)
+
+## Environment SetUp
+### Install Java 8 outside the virtual environment
+- this is because Java 8 is compatible with version of postgres jdbc driver used for the project 
+
+### Install (pip install jpype1).
+- Use jpype to interface Java from Python in the virtual environment 
+
+- Configure jpype to use Java 8 when starting the JVM, specifying the path to the PostgreSQL JDBC driver JAR file.
+
+- 
+
 
 ## Data Architecture
 ### Data Extraction
